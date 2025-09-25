@@ -4,9 +4,10 @@ var app = express();
 
 app.use(express.static('public'));
 
-var server= app.listen(4000, ()=>{
-    console.log('server on port http://localhost:4000');
-})
+var server = app.listen(4000, '0.0.0.0', () => {
+    console.log('server on port http://0.0.0.0:4000');
+});
+
 
 var io = socket(server);
 io.on('connection', function(socket){
