@@ -1,0 +1,19 @@
+{
+  "name": "chatnodea_m",
+  "version": "1.0.0",
+  "description": "chat en node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "alan geovani arriaga Quintana & miriam martinez gonzalez",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}

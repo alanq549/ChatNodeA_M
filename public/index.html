@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paractica de evaluacion Socket</title>
+    <link rel="stylesheet" href="styles.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.8.1/socket.io.js"></script>
+</head>
+
+<body>
+
+    <div id="panel_bienvenida">
+<h2>Practica de evaluacion usando Sockets de comunicacion - Alan Q & Miriam M</h2>
+        <input id="persona" type="text" placeholder="Ingresa tu nombre de usuario">
+        <button id="ingresar" onclick="IngresarAlChat()">Ingresar al chat</button>
+    </div>
+
+    <div id="app-chat" style="display: none;">
+        <h2>Practica de evaluacion 1er. parcial - Alan Q & Miriam M</h2>
+        <h2 class="nube box"> chat con socket</h2>
+        <div id="ventana-mensaje">
+            <div id="output"></div>
+            <div id="escribiendo-mensaje"></div>
+
+        </div>
+        <input id="usuario" type="text" placeholder="Tu nombre">
+        <input id="mensaje" type="text" placeholder="Ingresa tu mensaje">
+        <button id="enviar">Enviar</button>
+    </div>
+    <script src="/chat.js"></script>
+</body>
+
+</html>
