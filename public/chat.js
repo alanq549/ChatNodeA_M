@@ -1,4 +1,4 @@
-var socket = io.connect('http://52.15.95.121:4000');
+var socket = io.connect('http://18.225.11.59:4000' || 'http://localhost:4000');/// recurda cambiar la ip cada que incies la instance de aws
 var persona = document.getElementById('persona');
 var appChat = document.getElementById('app-chat');
 var panelBienvenida = document.getElementById('panel_bienvenida');
