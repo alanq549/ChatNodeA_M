@@ -5,8 +5,8 @@ var app = express();
 app.use(express.static('public'));
 
 var server = app.listen(4000, '0.0.0.0' || 'localhost', () => {
-    console.log('server on port http://0.0.0.0:4000');
-    console.log('server on port http://18.220.13.72:4000');
+    console.log('server on port http://18.225.31.202:4000');
+    console.log('server on port http://localhost:4000');
 });
 
 
